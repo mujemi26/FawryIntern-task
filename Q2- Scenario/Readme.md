@@ -140,7 +140,7 @@ curl -I http://internal.example.com
 ```
 
 ---
-![](./screenshots/curlping.png)
+![](./screenshots/ping.png)
 ![](./screenshots/FinalTest.png)
 ![](./screenshots/ss.png)
 ## 🏆 Conclusion
