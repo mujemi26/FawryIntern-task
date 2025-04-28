@@ -38,6 +38,7 @@ curl -I http://internal.example.com
 curl -I http://<IP>
 ```
 ![](./screenshots/curlIP.png)
+![](./screenshots/curlName.png)
 ```
 # Check if the service is listening
 sudo ss -tulpn | grep -E ':80|:443'
@@ -46,6 +47,7 @@ sudo ss -tulpn | grep -E ':80|:443'
 telnet internal.example.com 80
 nc -vz internal.example.com 80
 ```
+![](./screenshots/nc.png)
 
 #### 🔹 Expected Output:
 - If direct IP access works but domain access fails ➝ DNS issue.
@@ -138,7 +140,9 @@ curl -I http://internal.example.com
 ```
 
 ---
-
+![](./screenshots/curlping.png)
+![](./screenshots/FinalTest.png)
+![](./screenshots/ss.png)
 ## 🏆 Conclusion
 By systematically verifying DNS resolution, network access, and service configuration, you can pinpoint the cause of an unreachable web service and resolve it effectively.
 
