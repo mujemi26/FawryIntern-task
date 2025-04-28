@@ -122,7 +122,8 @@ Search for `"hello"`:
 Hello world
 HELLO AGAIN
 ```
-![](./screenshots/test1.png)
+![](./screenshots/test1.PNG)
+
 ### 🔹 **Search with line numbers (-n):**  
 ```bash
 ./mygrep.sh -n hello textfile.txt
