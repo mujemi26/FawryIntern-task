@@ -37,7 +37,7 @@ curl -I http://internal.example.com
 # Test connectivity directly via IP (replace <IP> with resolved address)
 curl -I http://<IP>
 ```
-![](./screenshots/curlIP.PNG)
+![](./screenshots/curlIP.png)
 ```
 # Check if the service is listening
 sudo ss -tulpn | grep -E ':80|:443'
