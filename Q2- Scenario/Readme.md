@@ -34,11 +34,11 @@ Even if DNS is resolving, the web service must be accessible on its assigned por
 ```sh
 # Test connectivity with curl
 curl -I http://internal.example.com
-curl -I https://internal.example.com
-
 # Test connectivity directly via IP (replace <IP> with resolved address)
 curl -I http://<IP>
-
+```
+![](./screenshots/curlIP.PNG)
+```
 # Check if the service is listening
 sudo ss -tulpn | grep -E ':80|:443'
 
