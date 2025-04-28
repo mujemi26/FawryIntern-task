@@ -133,7 +133,7 @@ HELLO AGAIN
 1:Hello world
 4:HELLO AGAIN
 ```
-![](./screenshots/test2.png)
+![](./screenshots/test2.PNG)
 ### 🔹 **Invert match (-v):**  
 ```bash
 ./mygrep.sh -v hello textfile.txt
@@ -145,7 +145,7 @@ another test line
 Don't match this line
 Testing one two three
 ```
-![](./screenshots/test3.png)
+![](./screenshots/test3.PNG)
 
 ### 🔹 **Invert match + line numbers (-vn or -nv):**  
 ```bash
@@ -158,7 +158,7 @@ Testing one two three
 5:Don't match this line
 6:Testing one two three
 ```
-![](./screenshots/test4.png)
+![](./screenshots/test4.PNG)
 
 ### 🔹 **Help flag:**  
 ```bash
@@ -172,7 +172,7 @@ Options:
   -v        Invert match (print lines that do not match).
   --help    Display this help message.
 ```
-![](./screenshots/test5.png)
+![](./screenshots/test5.PNG)
 ---
 
 ## 🔍 **Troubleshooting**  
